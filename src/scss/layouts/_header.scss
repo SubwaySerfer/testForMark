@@ -1,0 +1,18 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 5rem 5rem 2.6rem;
+  &__logo {
+    color: $red-color;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 120%;
+    cursor: pointer;
+  }
+  &__user-role {
+    font-weight: 400;
+    font-size: 16px;
+    color: $black-color;
+    line-height: 120%;
+  }
+}
